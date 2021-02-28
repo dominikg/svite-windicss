@@ -31,13 +31,14 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@svitejs/vite-plugin-svelte@^0.9.0-2":
-  version "0.9.0-2"
-  resolved "https://registry.yarnpkg.com/@svitejs/vite-plugin-svelte/-/vite-plugin-svelte-0.9.0-2.tgz#757819484a483d9a43b1a35dacef0f83fe26591d"
-  integrity sha512-Y3G5SkArb6gB9JJrv0O/KQqqr3aA51G7osjhWDQx6owIGJTUX8RRNH0Fi9EPEhzUlWrwColhSaWJHk3JzU+IFQ==
+"@svitejs/vite-plugin-svelte@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@svitejs/vite-plugin-svelte/-/vite-plugin-svelte-0.9.1.tgz#41db6eda4117452241368a1fed0a207224edfce9"
+  integrity sha512-ej55i/7seyiENfu5k/O59c3/0irF3+4dJWBRSZ5MUJBKDKwq9+zUT4ZPoSTKkkPS6tjL08dtGe9qw7WksUPb5g==
   dependencies:
     "@rollup/pluginutils" "^4.1.0"
     chalk "^4.1.0"
+    debug "^4.3.1"
     hash-sum "^2.0.0"
     require-relative "^0.8.7"
     slash "^3.0.0"
@@ -98,6 +99,13 @@ colorette@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
+
+debug@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+  dependencies:
+    ms "2.1.2"
 
 esbuild-register@^2.0.0:
   version "2.0.0"
@@ -220,6 +228,11 @@ micromatch@^4.0.2:
   dependencies:
     braces "^3.0.1"
     picomatch "^2.0.5"
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 nanoid@^3.1.20:
   version "3.1.20"
