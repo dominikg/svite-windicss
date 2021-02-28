@@ -20,13 +20,13 @@
     }
 
     /* does not work */
-    /*
+
     @screen sm {
         h1 {
             @apply text-blue-500;
         }
     }
-    */
+
     /* does not work either */
     /*
     @media (min-width: 640px) {

@@ -16,7 +16,7 @@ module.exports = defineConfig(({ command, mode }) => {
       })
     ],
     build: {
-      minify: isProduction
+      minify: false
     }
   }
 })
